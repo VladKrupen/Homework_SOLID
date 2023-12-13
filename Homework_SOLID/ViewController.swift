@@ -45,8 +45,6 @@ class Editor {
 
 //1
 protocol JobVacancy {
-    var name: String { get }
-    var salary: Int { get }
     
     func printAdvertisement()
 }
@@ -69,9 +67,6 @@ class Сhemist: JobVacancy {
 //2
 
 protocol Car {
-    var name: String { get }
-    var time: Int { get }
-    
     func printAccelerationToHundreds()
 }
 
